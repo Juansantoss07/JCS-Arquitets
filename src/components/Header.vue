@@ -35,6 +35,7 @@ export default {
         position: fixed;
         z-index: 100;
         background: #fff;
+        border-bottom: 1px solid rgba(27, 27, 27, 0.637);
     }
 
     .header-links{

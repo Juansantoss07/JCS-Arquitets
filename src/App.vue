@@ -1,11 +1,16 @@
 <script>
 
   import Header from "./components/Header.vue";
-  import Home from "./components/Sections/Home.vue"
+  import Home from "./components/Sections/Home.vue";
+  import Projects from "./components/Sections/Projects.vue";
+  import About from "./components/Sections/About.vue"
+
   export default{
     components:{
       Header,
-      Home
+      Home,
+      Projects,
+      About
     }
   }
 </script>
@@ -13,6 +18,8 @@
 <template>
   <Header/>
   <Home/>
+  <Projects/>
+  <About/>
 </template>
 
 <style>
@@ -23,4 +30,8 @@
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
 
+      .title{
+        padding: 1rem 0;
+        font-size: 24px;
+    }
 </style>

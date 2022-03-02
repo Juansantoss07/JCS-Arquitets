@@ -1,6 +1,6 @@
 <script>
 export default {
-    name:"Home"
+    name:"Home",
 }
 </script>
 
@@ -14,9 +14,10 @@ export default {
 <style scoped>
     section{
         height: 100vh;
-        background-image: url("https://images.pexels.com/photos/262347/pexels-photo-262347.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+        background-image: url("https://images.pexels.com/photos/2599538/pexels-photo-2599538.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
         background-position: center;
         background-size: cover;
+        background-attachment: fixed;
         display: flex;
         align-items: center;
         justify-content: center;
