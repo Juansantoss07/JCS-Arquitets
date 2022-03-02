@@ -34,4 +34,17 @@
         padding: 1rem 0;
         font-size: 24px;
     }
+
+    body::-webkit-scrollbar {
+  width: 8px;    
+}
+
+body::-webkit-scrollbar-track {
+  background: transparent;   
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #0D8AC0; 
+}
+
 </style>
