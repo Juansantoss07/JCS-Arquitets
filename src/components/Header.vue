@@ -21,7 +21,7 @@ export default {
             <div class="logo">
                 <strong>LOGO</strong>
             </div>
-            <button class="btn-mobile" id="on" @click="menuon">Menu</button>
+            <button class="btn-mobile" id="on" @click="menuon"><i class="bi bi-list"></i></button>
             <div class="header-links">
                 <div class="link">
                     <a href="#">Projects</a>
@@ -36,7 +36,7 @@ export default {
         </header>
         <div class="nav-mobile" id="nav">
               <div class="link">
-                  <button class="btn-mobile" id="off" @click="menuoff">Fechar</button>
+                  <button class="btn-mobile" id="off" @click="menuoff"><i class="bi bi-x-circle"></i></button>
                     <a href="#">Projects</a>
                 </div>
                 <div class="link">
@@ -68,6 +68,13 @@ export default {
 
     .btn-mobile{
         display: none;
+        border: 0;
+        background: transparent;
+        font-size: 24px;
+    }
+
+    #off{
+        margin-bottom: 3rem;
     }
      .nav-mobile{
         position: fixed;
