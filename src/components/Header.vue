@@ -35,8 +35,8 @@ export default {
             </div>
         </header>
         <div class="nav-mobile" id="nav">
+            <button class="btn-mobile" id="off" @click="menuoff"><i class="bi bi-x-circle"></i></button>
               <div class="link">
-                  <button class="btn-mobile" id="off" @click="menuoff"><i class="bi bi-x-circle"></i></button>
                     <a href="#">Projects</a>
                 </div>
                 <div class="link">
@@ -74,7 +74,7 @@ export default {
     }
 
     #off{
-        margin-bottom: 3rem;
+        margin-bottom: 1rem;
     }
      .nav-mobile{
         position: fixed;
@@ -84,7 +84,7 @@ export default {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 80%;
+        width: 100%;
         height: 50%;
         display: none;
         justify-content: space-evenly;
