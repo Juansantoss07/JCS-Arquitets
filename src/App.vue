@@ -3,14 +3,18 @@
   import Header from "./components/Header.vue";
   import Home from "./components/Sections/Home.vue";
   import Projects from "./components/Sections/Projects.vue";
-  import About from "./components/Sections/About.vue"
+  import About from "./components/Sections/About.vue";
+  import Contact from "./components/Sections/Contact.vue";
+  import Footer from "./components/Footer.vue"
 
   export default{
     components:{
       Header,
       Home,
       Projects,
-      About
+      About,
+      Contact,
+      Footer
     }
   }
 </script>
@@ -20,6 +24,8 @@
   <Home/>
   <Projects/>
   <About/>
+  <Contact/>
+  <Footer/>
 </template>
 
 <style>

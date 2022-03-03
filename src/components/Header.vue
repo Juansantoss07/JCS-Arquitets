@@ -85,9 +85,10 @@ export default {
         align-items: center;
         justify-content: center;
         width: 100%;
-        height: 50%;
+        height: auto;
         display: none;
         justify-content: space-evenly;
+        padding: 2rem 0;
     }
 
     .nav-mobile a{
@@ -120,6 +121,10 @@ export default {
 
         .header-links{
             display: none;
+        }
+
+        header{
+            padding: 1rem 2rem;
         }
     }
 </style>
